@@ -59,7 +59,7 @@ To get a local copy up and running follow these simple example steps.
 4. Run `git checkout -b your-branch-name`. Make your contributions
 5. Push your branch up to your forked repository
 6. Open a Pull Request with a detailed description of the development branch of the original project for a review
->>>>>>> development
+
 
 ## Authors
 
@@ -77,3 +77,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Mhdez221993)
 - Twitter: [@twitterhandle](https://twitter.com/MoisesH42060050s)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ShinobiWarior/Bubble-sort/issues).
+
+
+
