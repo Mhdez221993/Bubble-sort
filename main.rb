@@ -1,13 +1,17 @@
+
 def buble_sort (array)
+    n = array.length-1
     loop do
         swapped = false
-        array.each_index do |i|
-          if array[-i] > array[i]
-            array[i-1], array[i] = array[i], array[i-1]
-            swapped = true
-          end
-        end
-        if swapped == true
+        i=0
+        while i< n do 
+            if array[i] > array[i+1]
+                array[i], array[i+1] = array[i+1], array[i]
+                swapped = true
+            end
+            i+=1
+        end          
+        if swapped == false
             break
         end
    end
