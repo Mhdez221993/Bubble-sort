@@ -19,7 +19,7 @@ end
 
 def buble_sort_by (array)
     n = array.length-1
-   binding.pry
+  
     loop do
         swapped = false
         for i in 1..n
@@ -34,9 +34,6 @@ def buble_sort_by (array)
         end
    end
    array
-
 end
 
-buble_sort_by (["hi","hello","hey"]) do |left, right|
-   p left.length - right.length
-end
+buble_sort_by (["hi","hello","hey"]) {|left, right| left.length - right.length}
