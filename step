@@ -1,0 +1,24 @@
+
+[1mFrom:[0m /home/aleksandar/Microverse/Bubble-sort/main.rb:24 Object#buble_sort_by:
+
+    [1;34m20[0m: [32mdef[0m [1;34mbuble_sort_by[0m (array)
+    [1;34m21[0m:     n = array.length-[1;34m1[0m
+    [1;34m22[0m:     binding.pry
+    [1;34m23[0m:     loop [32mdo[0m
+ => [1;34m24[0m:         swapped = [1;36mfalse[0m
+    [1;34m25[0m:         [32mfor[0m i [32min[0m [1;34m1[0m..n
+    [1;34m26[0m:             left = array[i-[1;34m1[0m]
+    [1;34m27[0m:             right = array[i]
+    [1;34m28[0m:             [32mif[0m [32myield[0m >[1;34m0[0m
+    [1;34m29[0m:                 left, right = right, left
+    [1;34m30[0m:                 swapped = [1;36mtrue[0m
+    [1;34m31[0m:             [32mend[0m
+    [1;34m32[0m:         [32mend[0m          
+    [1;34m33[0m:         [32mif[0m swapped == [1;36mfalse[0m
+    [1;34m34[0m:             [32mbreak[0m
+    [1;34m35[0m:         [32mend[0m
+    [1;34m36[0m:    [32mend[0m
+    [1;34m37[0m:    array
+    [1;34m38[0m: 
+    [1;34m39[0m: [32mend[0m
+

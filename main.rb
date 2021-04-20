@@ -1,3 +1,4 @@
+require 'pry'
 
 def buble_sort (array)
     n = array.length-1
@@ -14,4 +15,27 @@ def buble_sort (array)
         end
    end
    array
+end
+
+def buble_sort_by (array)
+    n = array.length-1
+   binding.pry
+    loop do
+        swapped = false
+        for i in 1..n
+            if yield(array[i-1], array[i])  >0
+                left, right = right, left
+                swapped = true
+            end
+        end          
+        if swapped == false
+            break
+        end
+   end
+   array
+
+end
+
+buble_sort_by (["hi","hello","hey"]) do |left, right|
+   p left.length - right.length
 end
