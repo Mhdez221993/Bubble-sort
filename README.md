@@ -1,76 +1,80 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Advanced Building Blocks - Bubble Sort
 
-> One paragraph statement about the project.
+[Collaborative project]
+>In this project, we implemented the bubble sort algorithm. The assignment is focused on the use of yield and passing a block to a method.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+>The next part of the assignment is similar to the previous method, but it accepts code blocks using yield.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
 
-## Live Demo
+## Pre-request
 
-[Live Demo Link](https://livedemo.com)
+Ruby installed.
 
+## How to use instructions
+
+- Bubble Sort [buble_sort.rb] — buble_sort method accept one argument(array)
+  
+  To test code you can provide following line at the end of the code
+
+  ```ruby
+  p bubble_sort([4, 3, 78, 2, 0, 2])
+  ```
+  
+  and then run from terminal
+  
+  ```terminal
+  foo:$ ruby bubble_sort.rb
+  ```
+
+- In this case, it receives a block of code and uses yield in method to execute the descending sort
+  
+  To test the code, you can provide the following line at the end of the code.
+
+  ```ruby
+  sorted_by_array = bubble_sort_by(%w[hi hello hey]) do |left, right|
+    left.length - right.length
+  end
+
+  p sorted_by_array
+  ```
+  
+  and then run from terminal
+  
+  ```terminal
+  foo:$ ruby bubble_sort_by.rb
+  ```
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1. Go to https://github.com/ShinobiWarior/Bubble-sort
+2. Click on the code button and copy the HTTPS/ SSH URL.
+3. On terminal, type `git clone` command followed by pasting HTTPS/ SSH URL to clone this repository on your local machine.
+4. Run `git checkout -b your-branch-name`. Make your contributions
+5. Push your branch up to your forked repository
+6. Open a Pull Request with a detailed description of the development branch of the original project for a review
+>>>>>>> development
 
 ## Authors
 
-👤 **Author1**
+👤 **Aleksandar Ivezic**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [Aleksandar Ivezic](https://github.com/ShinobiWarior)
+- Twitter: [@Aivezic](https://twitter.com/Aivezic)
+- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezi%C4%87-1a6b0391/)
 
-## 🤝 Contributing
+👤 **Tanzila**
 
-Contributions, issues, and feature requests are welcome!
+![Tanzila's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanzila-abedin&count_private=true&theme=dark&show_icons=true)
 
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- GitHub: [@githubhandle](https://github.com/tanzila-abedin)
+- Twitter: [@twitterhandle](https://twitter.com/TanzilaAbedin)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanzila-abedin-331440b2/)
