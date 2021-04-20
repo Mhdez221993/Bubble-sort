@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def buble_sort(array)
+def bubble_sort(array)
   n = array.length - 1
   loop do
     swapped = false

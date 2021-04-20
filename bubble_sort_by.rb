@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def buble_sort_by(array)
+def bubble_sort_by(array)
   loop do
     swapped = false
     (1..array.length - 1).each do |i|
