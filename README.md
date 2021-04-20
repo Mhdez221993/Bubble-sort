@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/myapp-blueviolet)
 
 # Project Name
 
@@ -45,9 +45,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Twitter: [@twitterhandle](https://twitter.com/ShaherShamroukh/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaher-shamroukh/)
-- GitHub: [@githubhandle](https://github.com/Shaher-11/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
