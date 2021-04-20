@@ -17,7 +17,7 @@ Ruby installed.
 
 ## How to use instructions
 
-- Bubble Sort [buble_sort.rb] — buble_sort method accept one argument(array)
+- Bubble Sort [bubble_sort.rb] — buble_sort method accept one argument(array)
   
   To test code you can provide following line at the end of the code
 
@@ -71,10 +71,9 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@Aivezic](https://twitter.com/Aivezic)
 - LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezi%C4%87-1a6b0391/)
 
-👤 **Tanzila**
+👤 **Moises Hernandez**
 
-![Tanzila's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanzila-abedin&count_private=true&theme=dark&show_icons=true)
 
-- GitHub: [@githubhandle](https://github.com/tanzila-abedin)
-- Twitter: [@twitterhandle](https://twitter.com/TanzilaAbedin)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanzila-abedin-331440b2/)
+- GitHub: [@githubhandle](https://github.com/Mhdez221993)
+- Twitter: [@twitterhandle](https://twitter.com/MoisesH42060050s)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
