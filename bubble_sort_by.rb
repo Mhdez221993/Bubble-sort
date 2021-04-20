@@ -1,10 +1,14 @@
 # frozen_string_literal: true
 
-def bubble_sort_by(arr)
-  (0..arr.length - 2).each do |i|
-    sort_it = yield(arr[i], arr[i + 1])
-    arr[i], arr[i + 1] = arr[i + 1], arr[i] if sort_it.positive?
+def buble_sort_by(array)
+  loop do
+    swapped = false
+    (1..array.length - 1).each do |i|
+      sort_it = yield(array[i - 1], array[i])
+      array[i - 1], array[i] = array[i], array[i - 1], swapped = true if sort_it.positive?
+    end
+    break if swapped == false
   end
-  arr
+  array
 end
 p bubble_sort_by(['hi', 'hello', 'hey', 'free style', 'h', 'free', '']) { |left, right| left.length - right.length }
