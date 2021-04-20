@@ -3,13 +3,12 @@ def buble_sort (array)
     n = array.length-1
     loop do
         swapped = false
-        i=0
-        while i< n do 
-            if array[i] > array[i+1]
-                array[i], array[i+1] = array[i+1], array[i]
+        for i in 1..n
+            if array[i-1].to_i > array[i].to_i
+                array[i-1], array[i] = array[i], array[i-1]
                 swapped = true
+                p array[i]
             end
-            i+=1
         end          
         if swapped == false
             break
