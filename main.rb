@@ -7,7 +7,6 @@ def buble_sort (array)
             if array[i-1].to_i > array[i].to_i
                 array[i-1], array[i] = array[i], array[i-1]
                 swapped = true
-                p array[i]
             end
         end          
         if swapped == false
@@ -16,5 +15,3 @@ def buble_sort (array)
    end
    array
 end
-
-p buble_sort([2,5,3,6,4])
