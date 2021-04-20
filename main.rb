@@ -1,5 +1,3 @@
-require 'pry'
-
 def buble_sort (array)
     n = array.length-1
     loop do
@@ -24,16 +22,11 @@ def buble_sort_by (array)
         swapped = false
         for i in 1..n
             sort_it = yield(array[i-1], array[i])
-            if   sort_it>0
-                array[i-1], array[i] = array[i], array[i-1]
-                swapped = true
-            end
+            array[i-1], array[i] = array[i], array[i-1], swapped = true if   sort_it>0
         end          
-        if swapped == false
-            break
-        end
+        break if swapped == false
    end
    array
 end
 
-buble_sort_by (["hi","hello","hey"]) {|left, right| left.length - right.length}
+p buble_sort_by (["hi","hello","hey", 'free style', 'h', 'free', '']) {|left, right| left.length - right.length}
