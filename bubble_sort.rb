@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def bubble_sort(array)
   n = array.length - 1
   loop do
