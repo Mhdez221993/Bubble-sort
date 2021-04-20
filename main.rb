@@ -23,8 +23,9 @@ def buble_sort_by (array)
     loop do
         swapped = false
         for i in 1..n
-            if yield(array[i-1], array[i])  >0
-                left, right = right, left
+            sort_it = yield(array[i-1], array[i])
+            if   sort_it>0
+                array[i-1], array[i] = array[i], array[i-1]
                 swapped = true
             end
         end          
